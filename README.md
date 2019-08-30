@@ -20,7 +20,7 @@ A Passenger should be initialized with a name as a string. After the Passenger h
   - Returns the name of the passenger
 - `Passenger#rides`
   - Returns an array of Ride instances that this person has been on
-- `Passenger#drivers`
+- `Passenger#drivers`1
   - Returns an array of Driver instances that this person has rode with
 - `Passenger#total_distance`
   - Returns the floating number that represents the total distance the passenger has travelled using the service
