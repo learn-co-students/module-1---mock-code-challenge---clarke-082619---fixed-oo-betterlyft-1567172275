@@ -12,7 +12,7 @@ class Passenger
     end
 
     def drivers
-        rides.map{|x| x.driver}
+        rides.map{|x| x.driver}.uniq
     end
 
     def total_distance
